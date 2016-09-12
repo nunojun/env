@@ -1,0 +1,8 @@
+[core]
+	excludesfile = /Users/bumjoonkim/.gitignore_global
+[user]
+	name = Bumjoon Kim
+	email = Bumjoon_Kim@comcast.com
+#   email = nunojun@gmail.com
+[push]
+    default = current

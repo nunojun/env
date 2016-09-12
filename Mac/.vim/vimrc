@@ -1,0 +1,54 @@
+" System vimrc file for MacVim
+"
+" Maintainer:	Bjorn Winckler <bjorn.winckler@gmail.com>
+" Last Change:	Sat Aug 29 2009
+
+set nocompatible
+
+" The default for 'backspace' is very confusing to new users, so change it to a
+" more sensible value.  Add "set backspace&" to your ~/.vimrc to reset it.
+"set backspace+=indent,eol,start
+
+" Disable localized menus for now since only some items are translated (e.g.
+" the entire MacVim menu is set up in a nib file which currently only is
+" translated to English).
+set langmenu=none
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set fileencodings=utf-8,euc-kr
+
+set gfn=DejaVu\ Sans\ Mono\ 9
+"colorscheme slate
+colorscheme bj
+set nobackup nowritebackup
+set lines=40
+set columns=120
+set ts=4
+set ai
+set si
+set number
+" If you don't want make swap file then set updatecount=0 (default:200)
+set updatecount=0
+
+set nu
+set nowrap
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set nolinebreak
+set smartindent
+set nobackup
+set nowritebackup
+set noea
+set et
+set fileformats=unix
+set fileformat=unix
+set encoding=cp949
+"set guioptions-=m
+set guioptions-=T
+set gfn=Menlo:h12
+"set gfn=Monaco:h12
+
+"source $VIMRUNTIME/mswin.vim
+"source /Applications/MacVim.app/Contents/Resources/vim/runtime/mswin.vim
+"behave mswin
